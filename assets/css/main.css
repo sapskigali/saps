@@ -21,9 +21,14 @@
 	article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
 		display: block;
 	}
-
+	.x-padding {
+		padding: 0 25px;
+	}
 	body {
 		line-height: 1;
+	}
+	p {
+		font-size: 1.1em;
 	}
 
 	ol, ul {
@@ -3203,7 +3208,7 @@
 	.navPanelToggle {
 		position: fixed;
 		text-decoration: none;
-		height: 4em;
+		height: 3.1em;
 		right: 3em;
 		top: .75em;
 		width: 4em;
@@ -3370,6 +3375,7 @@
 		background-repeat: no-repeat;
 		background-position: 15% left;
 		text-align: left;
+		min-height: 89vh;
 		position: relative;
 		z-index: 9999;
 	}
@@ -3502,7 +3508,6 @@
 					max-width: 90%;
 					width: 90%;
 				}
-
 			}
 
 		#banner h1 {
@@ -3570,7 +3575,6 @@
 				#banner ul {
 					margin-top: 1em;
 				}
-
 		}
 
 /* Main */
