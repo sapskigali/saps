@@ -2656,6 +2656,28 @@
 		border-color: #e5474b;
 	}
 
+	.lecturer {
+		
+	}
+		.lecturer .profile {
+			/* height: 15vh; */
+			display: flex;
+		}
+			.profile .names {
+				flex: 1;
+				padding: 20px;
+				display: flex;
+				flex-direction: column;
+				justify-content: center;
+			}
+			.profile img {
+				height: 25vh;
+				border: 4px solid #e5474b;
+			}
+		.lecturer .bio {
+
+		}
+
 /* Wrapper */
 
 	.wrapper {
