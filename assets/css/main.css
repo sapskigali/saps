@@ -7,7 +7,7 @@
 	html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
 		margin: 0;
 		padding: 0;
-		border: 0;
+		border: 1px;
 		font-size: 100%;
 		font: inherit;
 		vertical-align: baseline;
@@ -41,7 +41,7 @@
 
 	table {
 		border-collapse: collapse;
-		border-spacing: 0;
+		border-spacing: 1px;
 	}
 
 	body {
@@ -2357,7 +2357,7 @@
 }
 
 .t8 {
-	background: url(../../images/testimony8.png) no-repeat center top;
+	background: url(../../images/profile2.jpg) no-repeat center top;
 	background-size: cover;
 }
 
@@ -3256,7 +3256,6 @@ blockquote {
 			font-size: 1.75em;
 			text-transform: none;
 			font-weight: normal;
-			padding: 0;
 		}
 
 			#header .logo:hover {
@@ -3490,9 +3489,9 @@ blockquote {
 		background-image: url("../../images/banner.jpeg");
 		background-size: cover;
 		background-repeat: no-repeat;
-		background-position: 15% left;
+		background-position: 25% center;
 		text-align: left;
-		min-height: 100vh;
+		min-height: 60vh;
 		position: relative;
 		top: -5em;
 		z-index: 9999;
@@ -3698,17 +3697,17 @@ blockquote {
 /* Main */
 
 	#main {
-		padding: 4em 0 2em 0;
+		padding: 1em 0 2em 0;
 	}
 
 	#one {
-		padding: 6em 0 4em 0;
+		padding: 3em 0 4em 0;
 	}
 
 		@media screen and (max-width: 980px) {
 
 			#one {
-				padding: 4em 0 2em 0;
+				padding: 2em 0 2em 0;
 			}
 
 		}
@@ -3716,7 +3715,7 @@ blockquote {
 		@media screen and (max-width: 736px) {
 
 			#one {
-				padding: 2em 0 0.1em 0;
+				padding: 1em 0 0.1em 0;
 			}
 
 		}
@@ -4078,3 +4077,16 @@ blockquote {
 			}
 
 		}
+		
+		p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; 
+			font: 10.0px 'Helvetica Neue'; color: #454545}
+		p.p2 {margin: 0.0px 0.0px 0.0px 0.0px; 
+			font: 10.0px Helvetica; 
+			min-height: 12.0px}
+		p.p3 {margin: 0.0px 0.0px 0.0px 0.0px; 
+			font: 10.0px 'Helvetica Neue'; 
+			color: #454545; min-height: 12.0px}
+		table.t1 {border-collapse: collapse}
+		td.td1 {border-style: solid; border-width: 1.0px 1.0px 1.0px 1.0px; 
+			border-color: #aaaaaa #aaaaaa #aaaaaa #aaaaaa; 
+			padding: 1.0px 5.0px 1.0px 5.0px}
